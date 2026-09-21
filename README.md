@@ -90,19 +90,6 @@ These are expected. They are not worth fixing.
   two trade places. With four pinned apps that takes five pins, but it is the thing to
   suspect if routing ever reverses.
 
-## Icon
-
-`icons/icon.svg` is the source for 48px and 128px. `icons/icon-small.svg` is a simplified
-variant for 16px and 32px, where the detailed wake blurs into a band. Regenerate with:
-
-```bash
-cd icons
-rsvg-convert -w 16  -h 16  icon-small.svg -o icon16.png
-rsvg-convert -w 32  -h 32  icon-small.svg -o icon32.png
-rsvg-convert -w 48  -h 48  icon.svg       -o icon48.png
-rsvg-convert -w 128 -h 128 icon.svg       -o icon128.png
-```
-
 ## License
 
 MIT — see [LICENSE](LICENSE).
